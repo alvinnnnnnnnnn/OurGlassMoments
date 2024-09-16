@@ -12,8 +12,9 @@
     z-index: 1000; /* Ensures it stays on top of other content */
 }
 
-.logo {
-    height: 40px;
+.logo img {
+    height: 100%; /* Make the logo image take up the full height of the container */
+    max-height: calc(9vw); /* Ensure it doesn't exceed the container's height */
     width: auto; /* Maintain the aspect ratio of the logo */
     padding-left: 20px;
 }
