@@ -12,7 +12,7 @@ const Header = () => {
         <div className={styles.container}>
             <div className={styles.logo}>
                 <Link href="/pages" className={isActive('/') ? styles.active : ''}>
-                    <img src="./Our Glass Moments White.png" alt="" />
+                    <img src="/Our Glass Moments White.png" alt="" />
                 </Link>
             </div>
             <div className={styles.pages}>
