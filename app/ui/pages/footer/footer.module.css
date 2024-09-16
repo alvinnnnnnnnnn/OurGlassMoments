@@ -1,0 +1,7 @@
+.container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 20px;
+    height: calc(8vw);
+}

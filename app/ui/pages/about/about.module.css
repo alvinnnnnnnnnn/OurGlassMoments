@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uppercontainer img {
+    max-height: 250px; /* Set a maximum height */
+    width: auto; /* Keep the width proportional to the height */
+    object-fit: contain; /* Ensures the image scales properly */
+}
+
+.lowercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: black;
+    letter-spacing: 0.3px;
+    padding-left: 475px;
+    padding-right: 475px;
+    gap: 17px;
+}

@@ -1,0 +1,96 @@
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(5vw);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.15); /* Set background to make it visible over content */
+    color: white;
+    z-index: 1000; /* Ensures it stays on top of other content */
+}
+
+.logo img {
+    height: 100%; /* Make the logo image take up the full height of the container */
+    max-height: calc(9vw); /* Ensure it doesn't exceed the container's height */
+    width: auto; /* Maintain the aspect ratio of the logo */
+    padding-left: 20px;
+}
+
+.pages{
+    display: flex;
+    gap: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    padding: 20px 50px;
+}
+
+/* Dropdown container */
+.photosPage {
+    position: relative; /* Important to make the dropdown position relative to this */
+    display: inline-block;
+}
+
+/* Dropdown content hidden by default */
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 120px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    top: 100%; /* Align dropdown directly below the parent */
+    right: 0; /* Align dropdown to the right of the parent */
+    z-index: 1000;
+}
+
+/* Dropdown links */
+.dropdownContent a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+/* Hover effect for dropdown links */
+.dropdownContent a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+}
+
+/* Show dropdown when hovering over the photosPage div */
+.photosPage:hover .dropdownContent {
+    display: block;
+}
+
+/* Optional: Add smooth transition to dropdown */
+.dropdownContent {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.photosPage:hover .dropdownContent {
+    display: block;
+    opacity: 1; /* Fade-in effect */
+}
+
+.pages a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+/* Active link styling */
+.active {
+    border-bottom: 2px solid white; /* Underline effect */
+}
+
+.pages a:hover {
+    border-bottom: 2px solid white; /* Hover effect */
+}
+

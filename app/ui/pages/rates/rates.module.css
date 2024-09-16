@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-y: auto; /* Ensure the page is scrollable */
+}
+
+.imgcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imageWrapper {
+    width: 100%; /* Make the image take full width */
+    max-width: 100%;
+}
+
+.ratecard1,
+.ratecard2,
+.ratecard3,
+.ratecard4,
+.ratecard5,
+.ratecard6,
+.ratecard7   {
+    object-fit: cover; /* Ensures the image fits its container */
+    width: 100%;
+    height: auto; /* Adjust height to maintain aspect ratio */
+}
