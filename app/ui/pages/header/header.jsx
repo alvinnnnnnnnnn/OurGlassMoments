@@ -62,10 +62,10 @@ const Header = () => {
 
     return (
         <div className={styles.container}>
-            <div className={styles.logo} style={{ position: 'relative', width: '100%', height: 'auto' }}>
-                <Link href="/pages" className={isActive('/') ? styles.active : ''}>
+            <div className={styles.logo}>
+                <Link href="/pages">
                     <Image 
-                        src="/OurGlassMoments/Our Glass Moments White.png"  // Prefix with base path
+                        src="/OurGlassMoments/Our_Glass_Moments_White.png"  // Prefix with base path
                         alt="Our Glass Moments Logo" 
                         fill  // This will fill the container based on CSS
                         priority={true}  // Priority loading for better performance
