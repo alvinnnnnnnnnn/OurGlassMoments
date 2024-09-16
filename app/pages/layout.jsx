@@ -13,23 +13,24 @@ const LayOut = ({children}) => {
     // Dynamically set the image source based on the current route
     useEffect(() => {
         const getImageSrc = () => {
+            const basePath = '/OurGlassMoments';  // Your GitHub repo name
             switch (pathname) {
                 case '/pages':
-                    return './cover_page.png';  
+                    return `${basePath}/cover_page.png`;  
                 case '/pages/about':
-                    return '../cover_about.png';  
+                    return `${basePath}/cover_about.png`;  
                 case '/pages/rates':
-                    return '../cover_rates.png'; 
+                    return `${basePath}/cover_rates.png`; 
                 case '/pages/prewedding':
-                    return '../cover_pws.png'; 
+                    return `${basePath}/cover_pws.png`; 
                 case '/pages/wedding':
-                    return '../cover_wed.png'; 
+                    return `${basePath}/cover_wed.png`; 
                 case '/pages/contact':
-                    return '../cover_contact.png'; 
+                    return `${basePath}/cover_contact.png`; 
                 default:
                     return ''; 
             }
-        };
+        };        
 
         setImageSrc(getImageSrc());
     }, [pathname]);  
