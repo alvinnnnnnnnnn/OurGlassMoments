@@ -8,7 +8,7 @@ const RatesPage = () => {
                 <div className={styles.imageWrapper}>
                     <Image
                         className={styles.ratecard1}
-                        src="./rate card.png"
+                        src="/OurGlassMoments/rate card.png"
                         alt=""
                         layout="responsive"
                         width={170}
@@ -18,7 +18,7 @@ const RatesPage = () => {
                 <div className={styles.imageWrapper}>
                     <Image
                         className={styles.ratecard2}
-                        src="./PW.png"
+                        src="/OurGlassMoments/PW.png"
                         alt=""
                         layout="responsive"
                         width={170}
@@ -28,7 +28,7 @@ const RatesPage = () => {
                 <div className={styles.imageWrapper}>
                     <Image
                         className={styles.ratecard3}
-                        src="./PW rate.png"
+                        src="/OurGlassMoments/PW rate.png"
                         alt=""
                         layout="responsive"
                         width={170}
@@ -38,7 +38,7 @@ const RatesPage = () => {
                 <div className={styles.imageWrapper}>
                     <Image
                         className={styles.ratecard4}
-                        src="./AD.png"
+                        src="/OurGlassMoments/AD.png"
                         alt=""
                         layout="responsive"
                         width={170}
@@ -48,7 +48,7 @@ const RatesPage = () => {
                 <div className={styles.imageWrapper}>
                     <Image
                         className={styles.ratecard5}
-                        src="./AD rate.png"
+                        src="/OurGlassMoments/AD rate.png"
                         alt=""
                         layout="responsive"
                         width={170}
@@ -58,7 +58,7 @@ const RatesPage = () => {
                 <div className={styles.imageWrapper}>
                     <Image
                         className={styles.ratecard6}
-                        src="./solemnisation.png"
+                        src="/OurGlassMoments/solemnisation.png"
                         alt=""
                         layout="responsive"
                         width={170}
@@ -68,7 +68,7 @@ const RatesPage = () => {
                 <div className={styles.imageWrapper}>
                     <Image
                         className={styles.ratecard7}
-                        src="./solemnisation rate.png"
+                        src="/OurGlassMoments/solemnisation rate.png"
                         alt=""
                         layout="responsive"
                         width={170}
