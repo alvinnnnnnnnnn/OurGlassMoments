@@ -4,7 +4,7 @@ const AboutPage = () => {
     return (
         <div className={styles.container}>
             <div className={styles.uppercontainer}>
-                <img src="./Our Glass Moments Black.png" alt="" />
+                <img src="/OurGlassMoments/Our Glass Moments Black.png" alt="" />
             </div>
             <div className={styles.lowercontainer}>
                 <div className={styles.words}>

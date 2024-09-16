@@ -7,7 +7,7 @@ const PreweddingPage = () => {
             <div className={styles.galleryGrid}>
                 <Link href="/pages/prewedding/damon_georgia" className={styles.galleryItem}>
                     <div className={styles.imageContainer}>
-                        <img src="./cover_dg_pws.png" alt="" />
+                        <img src="/OurGlassMoments/cover_dg_pws.png" alt="" />
                         <div className={styles.overlay}>
                             <div className={styles.overlayText}>D & G</div>
                         </div>
@@ -15,7 +15,7 @@ const PreweddingPage = () => {
                 </Link>
                 <Link href="/pages/prewedding/brian_kimberly" className={styles.galleryItem}>
                     <div className={styles.imageContainer}>
-                        <img src="./cover_bk_pws.png" alt="" />
+                        <img src="/OurGlassMoments/cover_bk_pws.png" alt="" />
                         <div className={styles.overlay}>
                             <div className={styles.overlayText}>B & K</div>
                         </div>
@@ -23,7 +23,7 @@ const PreweddingPage = () => {
                 </Link>
                 <Link href="/pages/prewedding/jonathan_louise" className={styles.galleryItem}>
                     <div className={styles.imageContainer}>
-                        <img src="./cover_jl_pws.png" alt="" />
+                        <img src="/OurGlassMoments/cover_jl_pws.png" alt="" />
                         <div className={styles.overlay}>
                             <div className={styles.overlayText}>J & L</div>
                         </div>
