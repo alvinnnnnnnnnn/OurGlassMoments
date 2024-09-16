@@ -15,17 +15,17 @@ const LayOut = ({children}) => {
         const getImageSrc = () => {
             switch (pathname) {
                 case '/pages':
-                    return '/cover_page.png';  
+                    return './cover_page.png';  
                 case '/pages/about':
-                    return '/cover_about.png';  
+                    return './cover_about.png';  
                 case '/pages/rates':
-                    return '/cover_rates.png'; 
+                    return './cover_rates.png'; 
                 case '/pages/prewedding':
-                    return '/cover_pws.png'; 
+                    return './cover_pws.png'; 
                 case '/pages/wedding':
-                    return '/cover_wed.png'; 
+                    return './cover_wed.png'; 
                 case '/pages/contact':
-                    return '/cover_contact.png'; 
+                    return './cover_contact.png'; 
                 default:
                     return ''; 
             }
