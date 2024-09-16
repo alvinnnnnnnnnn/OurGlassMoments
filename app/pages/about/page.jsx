@@ -9,14 +9,14 @@ const AboutPage = () => {
             <div className={styles.lowercontainer}>
                 <div className={styles.words}>
                     We are a collective of passionate freelance creatives, brought together 
-                    by our love for storytelling and life's special moments. 
+                    by our love for storytelling and life&apos;s special moments. 
                 </div>
                 <div className={styles.words}>
-                    We believe your wedding day is more than just a celebration; it's a tapestry woven with emotions, laughter, 
+                    We believe your wedding day is more than just a celebration; it&apos;s a tapestry woven with emotions, laughter, 
                     and love. 
                 </div>
                 <div className={styles.words}>
-                    Let us help make your perfect day one you'll cherish forever.
+                    Let us help make your perfect day one you&apos;ll cherish forever.
                 </div>
             </div>
         </div>
